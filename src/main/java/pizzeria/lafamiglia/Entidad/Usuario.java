@@ -1,4 +1,4 @@
-package pizzeria.lafamiglia;
+package pizzeria.lafamiglia.Entidad;
 
 import jakarta.persistence.Entity;
 //import javax.persistence.Table;

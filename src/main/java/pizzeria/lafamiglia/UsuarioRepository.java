@@ -2,6 +2,8 @@ package pizzeria.lafamiglia;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import pizzeria.lafamiglia.Entidad.Usuario;
+
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
     // No es necesario agregar la anotación @Repository, ya que JpaRepository
     // ya tiene la anotación @Repository
