@@ -1,5 +1,7 @@
 package pizzeria.lafamiglia.Entidad;
 
+import java.sql.Date;
+
 import jakarta.persistence.Entity;
 //import javax.persistence.Table;
 
@@ -29,11 +31,13 @@ public class Usuario {
     private String email;
     @Getter
     @Setter
-    private String pass1;
+    private String password;
     @Getter
     @Setter
     private String direccion;
     @Getter
     @Setter
     private String rol;
+    public void setLastLogin(Date date) {
+    }
 }
